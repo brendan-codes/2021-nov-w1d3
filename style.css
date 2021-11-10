@@ -1,3 +1,27 @@
 h1 {
     color: dodgerblue;
 }
+
+.purple-box {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: space-between;
+    background-color: purple;
+    height: auto;
+    padding: 25px;
+}
+
+.orange-box {
+    background-color: orange;
+    /* height: 100px;
+    width: 100px; */
+    margin: 5px;
+}
+
+.flex {
+    display: flex;
+}
+
+.align-self-center {
+    align-self: center;
+}
